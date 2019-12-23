@@ -1,0 +1,48 @@
+/*.contenedor {
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0.1rem 2rem;
+}
+
+nav {
+  font-size: 1rem;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+nav .contenedor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+nav .logo {
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul a {
+  padding: 0 1rem;
+  color: #fff;
+}
+
+nav ul a:hover {
+  color: #7f8c8d;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}*/
+
+li a {
+  letter-spacing: 2px;
+}

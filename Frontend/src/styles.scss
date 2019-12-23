@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+textarea {
+    max-height: 300px;
+    min-height: 70px;
+}
+
+body {
+    background: #2d3436;
+}
+
+/*.ng-valid[required], .ng-valid.required {
+    border-bottom: 2px solid #42a948;
+}
+
+.ng-invalid:not(form) {
+    border-bottom: 2px solid #a94442;
+}*/
+
+.is-invalid {
+    border-bottom: 2px solid #a94442;
+}
+
+.is-valid {
+    border-bottom: 2px solid #42a948;
+}
